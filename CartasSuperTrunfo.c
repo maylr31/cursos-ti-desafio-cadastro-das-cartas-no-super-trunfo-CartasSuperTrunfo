@@ -7,7 +7,7 @@ int main() {
     float densidade1, densidade2, pibPerCapita1, pibPerCapita2;
 
     // Entrada de dados para a primeira carta
-    printf("Digite os dados da primeira carta:\n");
+    printf("Digite os dados da primeira carta por favor:\n");
     printf("População: ");
     scanf("%d", &populacao1);
     printf("Área (em km²): ");
@@ -16,7 +16,7 @@ int main() {
     scanf("%f", &pib1);
 
     // Entrada de dados para a segunda carta
-    printf("\nDigite os dados da segunda carta: \n");
+    printf("\nDigite os dados da segunda carta por favor: \n");
     printf("População: ");
     scanf("%d", &populacao2);
     printf("Área (em km²): ");
@@ -46,5 +46,6 @@ int main() {
     printf("PIB per Capita: %.2f milhões/hab\n", pibPerCapita2);
 
     return 0;
+    
 }
 
