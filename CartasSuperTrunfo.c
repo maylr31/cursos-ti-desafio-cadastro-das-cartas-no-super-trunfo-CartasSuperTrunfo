@@ -16,7 +16,7 @@ int main() {
     scanf("%f", &pib1);
 
     // Entrada de dados para a segunda carta
-    printf("\nDigite os dados da segunda carta:\n");
+    printf("\nDigite os dados da segunda carta \n");
     printf("População: ");
     scanf("%d", &populacao2);
     printf("Área (em km²): ");
